@@ -1,6 +1,8 @@
 # master
 *Please put new entries at the top.
 
+1. KVO observations can now be made with Smart Key Path in Swift 3.2+, using `producer(for:)` and `signal(for:)` available on `NSObject.reactive`. (#3491, kudos to @andersio)
+
 # 6.0.0-rc.2
 1. `NSObject` reactive extensions now work in generic environments that are limited to `NSObjectProtocol`. (#3484, kudos to @nickdomenicali)
 
